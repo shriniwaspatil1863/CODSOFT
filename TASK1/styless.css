@@ -1,0 +1,218 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background: url(img.jpg);
+}
+.base{
+    top:20%;
+height: 400px;
+width: 400px;
+border-width: 4px;
+border-style: solid;
+border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+border-radius: 20px;
+position: absolute;
+background: transparent;
+backdrop-filter: blur(20px);
+}
+h1{
+        text-align: center;    
+      color: aqua;
+      font-size: 50px;
+}
+.display{
+    height:100px;
+    width: 350px;
+    border-style: solid;
+    border-color:rgb(8, 61, 234) ;
+    border-radius: 20px;
+    top:15%;
+    left:50%;
+    position: absolute;
+    align-items: flex-end;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    text-align-last: right;
+    color: aqua;
+}
+.common{
+    background: rgb(3,76,226);
+    background: radial-gradient(circle, rgba(3,76,226,1) 0%, rgba(228,16,223,0.5355392156862745) 100%);;
+    color: white;
+    height: 15%;
+    width: 15%;
+    position: relative;
+    top:40%;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.button1{
+    position: absolute;
+    top:180px;
+    left: 6%;
+}
+.button2{
+    position: absolute;
+    top:180px;
+    left: 24%;
+}
+.button3{
+    position: absolute;
+    top:180px;
+    left: 42%;
+}
+.button4{
+    position: absolute;
+    top:180px;
+    left: 60.5%;
+}
+.button5{
+    position: absolute;
+    top:180px;
+    right:6%;
+}
+.button6{
+    position: absolute;
+    top:250px;
+    left:6%;
+}
+.button7{
+    position: absolute;
+    top:250px;
+    left: 24%;
+}
+.button8{
+    position: absolute;
+    top:250px;
+    left: 42%;
+}
+.button9{
+    position: absolute;
+    top:250px;
+    left: 60.5%;
+}
+.button0{
+    position: absolute;
+    top:250px;
+    right:6%;
+}
+.symbol1{
+
+position:absolute;
+top:320px;
+left:6%;
+}
+
+.symbol2{
+
+    position:absolute;
+    top:320px;
+    left:24%;
+    
+}
+.symbol3{
+
+        position:absolute;
+        top:320px;
+        left:42%;
+        
+}
+.symbol4{
+
+    position:absolute;
+    top:320px;
+    left:60.5%;
+    
+    }
+    .symbol5{
+
+        position:absolute;
+        top:320px;
+        right:6%;
+        
+        }
+
+.symbolD{
+     height: 40px;
+     width: 25%;
+    position: absolute;
+    top:130px;
+    left:70%;
+}
+.symbolC{
+    height: 40px;
+    width: 25%;
+    position: absolute;
+    top: 130px;
+    left: 6%;
+}        
+ .button0:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button1:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button2:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button3:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button4:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button5:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button6:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button7:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button8:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.button9:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.symbol1:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.symbol2:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.symbol3:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.symbol4:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.symbol5:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.symbolD:hover{
+background-color: aliceblue;
+color: black;
+
+}
+.symbolC:hover{
+    background-color: aliceblue;
+    color: black;
+}
