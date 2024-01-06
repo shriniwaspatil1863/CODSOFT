@@ -10,8 +10,7 @@ height: 400px;
 width: 400px;
 border-width: 4px;
 border-style: solid;
-border-image: linear-gradient(to right, darkblue, darkorchid) 1;
-border-radius: 20px;
+border-color: black;
 position: absolute;
 background: transparent;
 backdrop-filter: blur(20px);
@@ -37,8 +36,7 @@ h1{
     color: aqua;
 }
 .common{
-    background: rgb(3,76,226);
-    background: radial-gradient(circle, rgba(3,76,226,1) 0%, rgba(228,16,223,0.5355392156862745) 100%);;
+background-color: black;
     color: white;
     height: 15%;
     width: 15%;
