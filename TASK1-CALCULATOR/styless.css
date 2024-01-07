@@ -144,7 +144,16 @@ left:6%;
     position: absolute;
     top: 130px;
     left: 6%;
-}        
+}     
+.symboldot{
+    height: 40px;
+    width: 25%;
+    position: absolute;
+    top: 130px;
+    left: 38%;
+    font-size: 30px;
+
+}   
  .button0:hover{
     background-color: aliceblue;
     color:black;
@@ -211,6 +220,10 @@ color: black;
 
 }
 .symbolC:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.symboldot:hover{
     background-color: aliceblue;
     color: black;
 }
