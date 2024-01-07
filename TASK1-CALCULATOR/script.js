@@ -25,6 +25,9 @@ function divide() {
 function multiply() {
     display.innerHTML += "*";
 }
+function dot(){
+    display.innerHTML +=".";
+}
 
 function calculate() {
     try {
