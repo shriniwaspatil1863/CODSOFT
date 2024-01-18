@@ -1,0 +1,208 @@
+body{
+ display: flex;
+    
+    flex-direction: column;
+    background: url(bgd3.jpg);
+    background-attachment: fixed;
+    color: aqua;
+
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    position: relative;
+    top: 25%;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+}
+.firstbox{
+    align-items: center;
+    text-align: center;
+    background-color: none;
+    margin-top: 2%;
+height: 600px;
+width: 100%;
+backdrop-filter: blur(5px);
+}
+.middlebox{
+    margin-top: 5%;
+height: 1500px;
+width: 100%;
+backdrop-filter: blur(5px);
+}
+.lastbox{
+    margin-top: 5%;
+height: 1000px;
+width: 100%;
+align-items: center;
+text-align: center;
+backdrop-filter: blur(5px);
+}
+.mainheading h1{
+    position: relative;
+    font-size: 50px;
+    left: 35%;
+    font-family: dancing script;
+    width: 500px;
+}
+.mainheading{
+    border-radius: 30px;
+    display: block;
+    background-color:aquamarine;
+    z-index: 1000;
+    position: fixed;
+    height: 100px;
+width: 100%;
+color: black;
+animation: fadeInDown 0.5s ease-in-out forwards;
+}
+.desc{
+    position: relative;
+    top:30%;
+    left: 40%;
+    font-size: 40px;
+  font-family: Dancing Script;
+  font-weight: bolder;
+  width: 300px;
+
+}
+.middleheading h1{
+    position: relative;
+    top: 50%;
+    font-size: 50px;
+    font-family: dancing script;
+    text-align: center;
+}
+.middleheading{
+    position: relative;
+    top: 8%;
+}
+.info1{
+position: relative;
+top: 18%;
+left:8%;
+font-size: 40px;
+font-family: dancing script;
+font-weight: bolder;
+width: 500px;
+text-align: left;
+}
+.bounceballpng1{    
+    position: absolute;
+    right: 5%;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+.middlebox h2{
+    position: relative;
+    left: 8%;
+    top:17%;
+    font-size: 30px;
+    font-family: dancing script;
+    width: 300px;
+}
+.bounceball2{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    border-radius: 30px;
+}
+.info2{
+    width: 300px;
+    position: relative;
+    top:5%;
+    left: 70%;
+    font-size: 40px;
+    text-align: left;
+}
+.info2 p{
+    font-family: dancing script;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.info2 h2{
+    position: relative;
+    left: 0;
+}
+.info3{
+width: 500px;
+position: relative;
+top:20%;
+left: 8%;
+}
+.info3 h2{
+    position: relative;
+    left: 0;
+}
+.info3 p{
+    font-family: dancing script;
+    font-weight: bolder;
+    font-size: bolder;
+    font-size: 40px;
+}
+.bounceball3{
+    position: relative;
+    top:2%;
+    left: 62%;
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+}
+.info4 h2{
+    position: relative;
+    top: 0;
+    text-align: center;
+    font-family: dancing script;
+    font-size: 40px;
+}
+.bounceball4{
+    position: relative;
+    top:5%;
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+}
+.lastbox p{
+    position: relative;
+    top: 15%;
+    font-size: 40px;
+    font-family: dancing script;
+    font-weight: bolder;
+
+}
+.playbutton{
+    position: relative;
+font-size: 50px;
+font-family: dancing script;
+top:25%;
+border-radius: 30px;
+background-color: none;
+font-weight: bolder;
+background: transparent;
+color: black;
+border-style: solid;
+border-color: aquamarine;
+}
+.playbutton:hover{
+    background-color:none;
+    color:aquamarine;
+}
+.logo:hover{
+    background-color: aquamarine;
+}
+@keyframes fadeInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
